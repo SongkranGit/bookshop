@@ -9,6 +9,29 @@
                 <a class="nav-link {{ active_class(Active::checkUriPattern('admin/dashboard')) }}" href="{{ route('admin.dashboard') }}"><i class="icon-speedometer"></i> {{ __('menus.backend.sidebar.dashboard') }}</a>
             </li>
 
+            <li class="nav-item nav-dropdown {{ active_class(Active::checkUriPattern('admin/log-viewer*'), 'open') }}">
+                <a class="nav-link nav-dropdown-toggle" href="#">
+                    <i class="fa fa-book"></i> {{ __('menus.backend.sidebar.book') }}
+                </a>
+
+                <ul class="nav-dropdown-items">
+                    <li class="nav-item">
+                        <a class="nav-link {{ active_class(Active::checkUriPattern('admin/log-viewer')) }}" href="{{ route('log-viewer::dashboard') }}">
+                           <i class=" fa fa-circle-o"></i> {{ __('menus.backend.sidebar.book_list') }}
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ active_class(Active::checkUriPattern('admin/log-viewer/logs*')) }}" href="{{ route('log-viewer::logs.list') }}">
+                            <i class=" fa fa-circle-o"></i> {{ __('menus.backend.sidebar.book_category') }}
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="nav-title">
+                {{ __('menus.backend.sidebar.mater_data') }}
+            </li>
+
             <li class="nav-title">
                 {{ __('menus.backend.sidebar.system') }}
             </li>
