@@ -4,7 +4,6 @@ namespace App\Http\Middleware;
 
 use Closure;
 use Carbon\Carbon;
-use Illuminate\Support\Facades\Lang;
 
 /**
  * Class LocaleMiddleware.
@@ -26,6 +25,7 @@ class LocaleMiddleware
          */
         if (config('locale.status')) {
             if (session()->has('locale') && in_array(session()->get('locale'), array_keys(config('locale.languages')))) {
+
                 /*
                  * Set the Laravel locale
                  */
@@ -51,9 +51,6 @@ class LocaleMiddleware
                 } else {
                     session()->forget('lang-rtl');
                 }
-            }else{
-                //set default language
-                Lang::setLocale('th');
             }
         }
 

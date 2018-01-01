@@ -31,7 +31,6 @@ return [
             'all_rights_reserved' => 'ขอสงวนสิทธิ์',
             'are_you_sure'        => 'คุณแน่ใจหรือ?',
             'boilerplate_link'    => 'Laravel 5 Boilerplate',
-            'company_link'        => 'Modern Software Technologies',
             'continue'            => 'ทำต่อ',
             'member_since'        => 'เป็นสมาชิกตั้งแต่',
             'minutes'             => ' นาที',

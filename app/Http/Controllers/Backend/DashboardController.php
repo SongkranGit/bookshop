@@ -3,8 +3,6 @@
 namespace App\Http\Controllers\Backend;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\Lang;
-
 
 /**
  * Class DashboardController.
@@ -18,8 +16,4 @@ class DashboardController extends Controller
     {
         return view('backend.dashboard');
     }
-
-
-
 }
-

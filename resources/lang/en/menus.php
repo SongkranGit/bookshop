@@ -47,9 +47,6 @@ return [
             'dashboard' => 'Dashboard',
             'general'   => 'General',
             'system'    => 'System',
-            'category'  => 'Category',
-            'book'      => 'Book',
-            'master_data'   => 'Mater Data',
         ],
     ],
 
