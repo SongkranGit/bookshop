@@ -1,0 +1,1329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="82e34794-0e33-427c-aa49-e34ce54887d9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/backend/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.env" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/bookshop.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Repositories/Backend/BookRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Repositories/Backend/CategoryRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/backend/book/category.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/backend/book/create.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/backend/book/edit.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/backend/book/show.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/backend/book.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/Backend/SlideshowController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/migrations/2017_12_14_202147_create_table_book.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ar/alerts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ar/auth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ar/buttons.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ar/exceptions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ar/http.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ar/labels.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ar/menus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ar/navs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ar/pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ar/passwords.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ar/roles.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ar/strings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ar/validation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/da/alerts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/da/auth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/da/buttons.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/da/exceptions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/da/http.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/da/labels.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/da/menus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/da/navs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/da/pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/da/passwords.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/da/roles.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/da/strings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/da/validation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/de/alerts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/de/auth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/de/buttons.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/de/exceptions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/de/http.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/de/labels.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/de/menus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/de/navs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/de/pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/de/passwords.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/de/roles.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/de/strings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/de/validation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/el/alerts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/el/auth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/el/buttons.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/el/exceptions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/el/http.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/el/labels.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/el/menus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/el/navs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/el/pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/el/passwords.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/el/roles.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/el/strings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/el/validation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/es/alerts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/es/auth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/es/buttons.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/es/exceptions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/es/http.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/es/labels.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/es/menus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/es/navs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/es/pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/es/passwords.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/es/roles.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/es/strings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/es/validation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/fr/alerts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/fr/auth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/fr/buttons.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/fr/exceptions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/fr/http.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/fr/labels.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/fr/menus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/fr/navs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/fr/pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/fr/passwords.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/fr/roles.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/fr/strings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/fr/validation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/id/alerts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/id/auth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/id/buttons.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/id/exceptions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/id/http.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/id/labels.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/id/menus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/id/navs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/id/pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/id/passwords.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/id/roles.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/id/strings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/id/validation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/it/alerts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/it/auth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/it/buttons.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/it/exceptions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/it/http.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/it/labels.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/it/menus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/it/navs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/it/pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/it/passwords.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/it/roles.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/it/strings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/it/validation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ja/alerts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ja/auth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ja/buttons.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ja/exceptions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ja/http.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ja/labels.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ja/menus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ja/navs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ja/pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ja/passwords.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ja/roles.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ja/strings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ja/validation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/nl/alerts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/nl/auth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/nl/buttons.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/nl/exceptions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/nl/http.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/nl/labels.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/nl/menus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/nl/navs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/nl/pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/nl/passwords.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/nl/roles.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/nl/strings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/nl/validation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/no/alerts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/no/auth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/no/buttons.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/no/exceptions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/no/http.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/no/labels.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/no/menus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/no/navs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/no/pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/no/passwords.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/no/roles.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/no/strings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/no/validation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/pt_BR/alerts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/pt_BR/auth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/pt_BR/buttons.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/pt_BR/exceptions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/pt_BR/http.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/pt_BR/labels.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/pt_BR/menus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/pt_BR/navs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/pt_BR/pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/pt_BR/passwords.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/pt_BR/roles.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/pt_BR/strings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/pt_BR/validation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ru/alerts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ru/auth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ru/buttons.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ru/exceptions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ru/http.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ru/labels.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ru/menus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ru/navs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ru/pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ru/passwords.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ru/roles.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ru/strings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/ru/validation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/sv/alerts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/sv/auth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/sv/buttons.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/sv/exceptions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/sv/http.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/sv/labels.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/sv/menus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/sv/navs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/sv/pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/sv/passwords.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/sv/roles.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/sv/strings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/sv/validation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/tr/alerts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/tr/auth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/tr/buttons.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/tr/exceptions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/tr/http.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/tr/labels.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/tr/menus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/tr/navs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/tr/pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/tr/passwords.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/tr/roles.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/tr/strings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/tr/validation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/zh-TW/alerts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/zh-TW/auth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/zh-TW/buttons.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/zh-TW/exceptions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/zh-TW/http.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/zh-TW/labels.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/zh-TW/menus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/zh-TW/navs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/zh-TW/pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/zh-TW/passwords.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/zh-TW/roles.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/zh-TW/strings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/zh-TW/validation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/zh/alerts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/zh/auth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/zh/buttons.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/zh/exceptions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/zh/http.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/zh/labels.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/zh/menus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/zh/navs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/zh/pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/zh/passwords.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/zh/roles.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/zh/strings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/lang/zh/validation.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Backend/DashboardController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Backend/DashboardController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/LocaleMiddleware.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/LocaleMiddleware.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/backend.css" afterPath="$PROJECT_DIR$/public/css/backend.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/frontend.css" afterPath="$PROJECT_DIR$/public/css/frontend.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/backend.js" afterPath="$PROJECT_DIR$/public/js/backend.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/frontend.js" afterPath="$PROJECT_DIR$/public/js/frontend.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/mix-manifest.json" afterPath="$PROJECT_DIR$/public/mix-manifest.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/lang/en/menus.php" afterPath="$PROJECT_DIR$/resources/lang/en/menus.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/lang/th/menus.php" afterPath="$PROJECT_DIR$/resources/lang/th/menus.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/lang/th/strings.php" afterPath="$PROJECT_DIR$/resources/lang/th/strings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/backend/includes/footer.blade.php" afterPath="$PROJECT_DIR$/resources/views/backend/includes/footer.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/backend/includes/header.blade.php" afterPath="$PROJECT_DIR$/resources/views/backend/includes/header.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/backend/includes/sidebar.blade.php" afterPath="$PROJECT_DIR$/resources/views/backend/includes/sidebar.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/backend/layouts/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/backend/layouts/app.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/backend/admin.php" afterPath="$PROJECT_DIR$/routes/backend/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/backend/auth.php" afterPath="$PROJECT_DIR$/routes/backend/auth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/breadcrumbs/backend/backend.php" afterPath="$PROJECT_DIR$/routes/breadcrumbs/backend/backend.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" executionDataType="PHAR" phpInterpreterId="65ec04c0-38ad-4fca-ba34-3002c0f4fe0e" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <pharPath>$PROJECT_DIR$/composer.phar</pharPath>
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="book.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/backend/book.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/backend/auth.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="28" column="54" lean-forward="true" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserRepository.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Repositories/Frontend/Auth/UserRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/frontend/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/Book/BookController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Blade" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>admin/ca</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/routes/backend</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/database/migrations/2017_09_26_140528_create_sessions_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2017_12_14_202147_create_table_book.php" />
+        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Backend/SlideshowController.php" />
+        <option value="$PROJECT_DIR$/env" />
+        <option value="$PROJECT_DIR$/database/migrations/2017_12_17_040513_create_table_slideshow.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2017_12_17_044922_create_book_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2017_12_17_050305_create_categories_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2017_12_17_051121_create_authors_table.php" />
+        <option value="$PROJECT_DIR$/app/Repositories/Backend/BookRepository.php" />
+        <option value="$PROJECT_DIR$/app/Repositories/Backend/CategoryRepository.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Backend/CategoryController.php" />
+        <option value="$PROJECT_DIR$/resources/views/backend/dashboard.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/backend/category.blade.php" />
+        <option value="$PROJECT_DIR$/routes/breadcrumbs/backend/backend.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Backend/Book/CategoryController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Backend/SettingController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Backend/Book/AuthorController.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/resources/lang/en/menus.php" />
+        <option value="$PROJECT_DIR$/config/locale.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Backend/DashboardController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/LocaleMiddleware.php" />
+        <option value="$PROJECT_DIR$/resources/lang/th/strings.php" />
+        <option value="$PROJECT_DIR$/app/helpers.php" />
+        <option value="$PROJECT_DIR$/resources/views/backend/includes/aside.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/backend/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/backend/includes/header.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/backend/includes/footer.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/backend.css" />
+        <option value="$PROJECT_DIR$/routes/backend/admin.php" />
+        <option value="$PROJECT_DIR$/routes/backend/auth.php" />
+        <option value="$PROJECT_DIR$/resources/lang/th/menus.php" />
+        <option value="$PROJECT_DIR$/resources/views/backend/includes/sidebar.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/backend/book/show.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Backend/Book/BookController.php" />
+        <option value="$PROJECT_DIR$/routes/backend/book.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/hieu-le/active" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/davejamesmiller/laravel-breadcrumbs" />
+      <path value="$PROJECT_DIR$/vendor/creativeorange/gravatar" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/webpatser/laravel-uuid" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-html" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-permission" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/mtdowling/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/arcanedev/support" />
+      <path value="$PROJECT_DIR$/vendor/arcanedev/log-viewer" />
+      <path value="$PROJECT_DIR$/vendor/arcanedev/no-captcha" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/appstract/laravel-blade-directives" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth1-client" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/laravel/browser-kit-testing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/laravel/socialite" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/class-loader" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="40" />
+    <option name="y" value="23" />
+    <option name="width" value="1400" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Book" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="User" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Middleware" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Models" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Repositories" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Repositories" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Repositories" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Repositories" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Auth" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fonts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fonts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lang" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lang" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="th" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="auth" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="auth" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="book" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bookshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookshop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v8.5.0/bin/node" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="SearchEverywhereHistoryKey" value="bookcon&#9;FILE&#9;file:///Applications/MAMP/htdocs/bookshop/app/Http/Controllers/Backend/Book/BookController.php&#10;ca&#9;FILE&#9;file:///Applications/MAMP/htdocs/bookshop/app/Models/Category.php&#10;container&#9;null&#9;null" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/backend/book" />
+      <recent name="$PROJECT_DIR$/app/Http/Controllers/Backend/Book" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/img/backend" />
+      <recent name="$PROJECT_DIR$/app/Http/Controllers/Backend/Book" />
+      <recent name="$PROJECT_DIR$/app/Http/Controllers/Backend" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82e34794-0e33-427c-aa49-e34ce54887d9" name="Default" comment="" />
+      <created>1513179036728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1513179036728</updated>
+      <workItem from="1513179039534" duration="279000" />
+      <workItem from="1513179348113" duration="2711000" />
+      <workItem from="1513199851328" duration="2828000" />
+      <workItem from="1513226795156" duration="818000" />
+      <workItem from="1513241589225" duration="1722000" />
+      <workItem from="1513263335937" duration="2249000" />
+      <workItem from="1513282798305" duration="4217000" />
+      <workItem from="1513365840257" duration="3108000" />
+      <workItem from="1513403552775" duration="1329000" />
+      <workItem from="1513445617209" duration="632000" />
+      <workItem from="1513472915441" duration="1407000" />
+      <workItem from="1513481828857" duration="350000" />
+      <workItem from="1513482184019" duration="181000" />
+      <workItem from="1513482496535" duration="544000" />
+      <workItem from="1513483064484" duration="18033000" />
+      <workItem from="1513531346334" duration="123000" />
+      <workItem from="1513536688054" duration="137000" />
+      <workItem from="1513562629969" duration="3236000" />
+      <workItem from="1513865844805" duration="1517000" />
+      <workItem from="1514076279676" duration="352000" />
+      <workItem from="1514337747845" duration="1634000" />
+      <workItem from="1514340137886" duration="759000" />
+      <workItem from="1514353802545" duration="6467000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="54633000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="40" y="23" width="1400" height="877" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24714285" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953104" sideWeight="0.3207143" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28263626" sideWeight="0.6135714" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35900623" sideWeight="0.6792857" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328934" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Models/Slideshow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/sass/backend/vendors/_vendors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/sass/backend/core/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/sass/backend/core/utilities/_background.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/sass/backend/core/utilities/_borders.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/sass/backend/core/utilities/_display.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/sass/backend/_global-overrides.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/sass/backend/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/sass/frontend/_custom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/sass/frontend/_global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/sass/frontend/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/frontend/components/ExampleComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/mix-manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/frontend/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/backend/before.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/backend/after.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/backend/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/plugins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Container/Container.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4418">
+          <caret line="12" column="57" lean-forward="true" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/SettingController.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/SlideshowController.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/DashboardController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/book/category.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="906" column="13" lean-forward="false" selection-start-line="906" selection-start-column="13" selection-end-line="906" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/th/menus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/includes/sidebar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="31" column="100" lean-forward="false" selection-start-line="31" selection-start-column="100" selection-end-line="31" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/auth/user/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1702">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1512954692000" expanded="true" signature="1209:1507" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="1277:1291" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="1339:1398" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="1444:1460" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="1884:2180" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="1951:1965" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="2013:2071" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="2117:2133" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="2549:2838" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="2613:2627" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="2675:2729" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="2775:2791" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="4953:5682" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="4968:5466" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="5203:5217" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="5302:5319" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="5544:5587" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="5663:5680" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="7657:8386" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="7672:8174" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="7915:7929" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="8006:8035" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="8244:8287" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="8355:8384" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/auth/user/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2632">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1512954692000" expanded="true" signature="1264:1628" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="1336:1350" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="1402:1461" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="1511:1527" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="2025:2337" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="2096:2110" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="2162:2220" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="2270:2286" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="2730:3035" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="2798:2812" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="2864:2918" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="2968:2984" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="3434:3682" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="3508:3522" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="3574:3631" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="4107:4381" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="4194:4208" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="4260:4330" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="6947:7191" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="7133:7162" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="7169:7189" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="9121:9907" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="9136:9683" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="9412:9426" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="9515:9532" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="9765:9808" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="9888:9905" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="11982:12774" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="11997:12554" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="12287:12301" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="12382:12411" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="12628:12671" ph="..." />
+            <marker date="1512954692000" expanded="true" signature="12743:12772" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/book/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/book/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/auth/user/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/book/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/Auth/User/UserAccessController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/Auth/User/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/LocaleMiddleware.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/PasswordExpires.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/backend/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/backend/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="28" column="54" lean-forward="true" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/frontend/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-232">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/Frontend/Auth/UserRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/Book/BookController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/backend/book.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/frontend/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

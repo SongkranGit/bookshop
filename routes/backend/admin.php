@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
+
 /**
  * All route names are prefixed with 'admin.'.
  */

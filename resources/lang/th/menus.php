@@ -46,7 +46,11 @@ return [
         'sidebar' => [
             'dashboard' => 'แผงควบคุม',
             'general'   => 'ทั่วไป',
+            'book-category'  => 'หมวดหมู่หนังสือ',
+            'book'      => 'หนังสือ',
+            'author'      => 'ผู้เขียน',
         'system'        => 'ระบบ',
+        'master_data'   => 'ข้อมูลมาสเดอร์',
         ],
     ],
 

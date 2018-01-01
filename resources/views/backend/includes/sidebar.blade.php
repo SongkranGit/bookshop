@@ -9,6 +9,40 @@
                 <a class="nav-link {{ active_class(Active::checkUriPattern('admin/dashboard')) }}" href="{{ route('admin.dashboard') }}"><i class="icon-speedometer"></i> {{ __('menus.backend.sidebar.dashboard') }}</a>
             </li>
 
+            <li class="nav-item nav-dropdown {{ active_class(Active::checkUriPattern('admin/auth*'), 'open') }}">
+                <a class="nav-link nav-dropdown-toggle" href="#">
+                    <i class="icon-book-open"></i> {{ __('menus.backend.sidebar.book') }}
+                    @if ($pending_approval > 0)
+                        <span class="badge badge-danger">{{ $pending_approval }}</span>
+                    @endif
+                </a>
+
+                <ul class="nav-dropdown-items">
+                    <li class="nav-item">
+                        <a class="nav-link {{ active_class(Active::checkUriPattern('admin/auth/user*')) }}" href="{{ route('admin.auth.user.index') }}">
+                            <i class="fa fa-circle-thin"></i>  {{ __('menus.backend.sidebar.book-category') }}
+
+                            @if ($pending_approval > 0)
+                                <span class="badge badge-danger">{{ $pending_approval }}</span>
+                            @endif
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ active_class(Active::checkUriPattern('admin/auth/role*')) }}" href="{{ route('admin.auth.role.index') }}">
+                            <i class="fa fa-circle-thin"></i>    {{ __('menus.backend.sidebar.author') }}
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="nav-title">
+                {{ __('menus.backend.sidebar.master_data') }}
+            </li>
+
+            <li class="nav-item">
+                {{--<a class="nav-link {{ active_class(Active::checkUriPattern('admin/category')) }}" href="{{ route('admin.category') }}"><i class="fa fa-address-book"></i> {{ __('menus.backend.sidebar.category') }}</a>--}}
+            </li>
+
             <li class="nav-title">
                 {{ __('menus.backend.sidebar.system') }}
             </li>
@@ -26,7 +60,7 @@
                     <ul class="nav-dropdown-items">
                         <li class="nav-item">
                             <a class="nav-link {{ active_class(Active::checkUriPattern('admin/auth/user*')) }}" href="{{ route('admin.auth.user.index') }}">
-                                {{ __('labels.backend.access.users.management') }}
+                                <i class="fa fa-circle-thin"></i>  {{ __('labels.backend.access.users.management') }}
 
                                 @if ($pending_approval > 0)
                                     <span class="badge badge-danger">{{ $pending_approval }}</span>
@@ -35,7 +69,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link {{ active_class(Active::checkUriPattern('admin/auth/role*')) }}" href="{{ route('admin.auth.role.index') }}">
-                                {{ __('labels.backend.access.roles.management') }}
+                                <i class="fa fa-circle-thin"></i>  {{ __('labels.backend.access.roles.management') }}
                             </a>
                         </li>
                     </ul>
@@ -50,12 +84,12 @@
                 <ul class="nav-dropdown-items">
                     <li class="nav-item">
                         <a class="nav-link {{ active_class(Active::checkUriPattern('admin/log-viewer')) }}" href="{{ route('log-viewer::dashboard') }}">
-                            {{ __('menus.backend.log-viewer.dashboard') }}
+                            <i class="fa fa-circle-thin"></i>   {{ __('menus.backend.log-viewer.dashboard') }}
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link {{ active_class(Active::checkUriPattern('admin/log-viewer/logs*')) }}" href="{{ route('log-viewer::logs.list') }}">
-                            {{ __('menus.backend.log-viewer.logs') }}
+                            <i class="fa fa-circle-thin"></i>   {{ __('menus.backend.log-viewer.logs') }}
                         </a>
                     </li>
                 </ul>
